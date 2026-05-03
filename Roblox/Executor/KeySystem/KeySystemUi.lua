@@ -16,14 +16,14 @@
 ]]
 local Config = {
     -- [1] PlatoBoost Settings
-    ServiceId       = 0, -- Your PlatoBoost Service ID
-    PlatoSecret     = "Token", -- Your PlatoBoost Secret Key
+    ServiceId       = 24860, -- Your PlatoBoost Service ID
+    PlatoSecret     = "96bdc774-c946-41b1-a2ec-ac8c3e770570", -- Your PlatoBoost Secret Key
 
     -- [2] Anti-Bypass / Global Secret Variable
-    Secret          = "Code", -- This makes the script ONLY run from the key script. Even if they copy the original obfuscated script to bypass the key, they won't be able to!
+    Secret          = "ebaadahmad2", -- This makes the script ONLY run from the key script. Even if they copy the original obfuscated script to bypass the key, they won't be able to!
     
     -- [3] Scripts & Links
-    MainScriptURL   = "Link", -- The raw URL of your main script
+    MainScriptURL   = "https://raw.githubusercontent.com/ebaadahmad2/KeySystem/refs/heads/main/script.lua", -- The raw URL of your main script
     
     -- [4] Social Media Settings (Set to true to show, false to hide)
     ShowDiscord     = false,
@@ -39,12 +39,12 @@ local Config = {
     KeyFileName     = "Mykey.txt", -- The name of the file where the valid key will be saved for auto-login
 
     -- [6] GUI Management
-    OldGuiName      = "", -- Name of the old GUI to destroy if it's already open
-    MainGuiName     = "", -- Name of the main script's GUI to check if it's already executing
+    OldGuiName      = "Ebaad HUB", -- Name of the old GUI to destroy if it's already open
+    MainGuiName     = "Ebaad HUB", -- Name of the main script's GUI to check if it's already executing
 
     -- [7] Hub Information & UI Text
-    HubName         = "Test", -- The main title shown at the top of the GUI
-    HubDescription  = "Test" -- The text shown below the title
+    HubName         = "Ebaad HUB", -- The main title shown at the top of the GUI
+    HubDescription  = "Ebaad HUB" -- The text shown below the title
 }
 
 -------------------------------------------------------------------------------
